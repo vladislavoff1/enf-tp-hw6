@@ -2,11 +2,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
 	<servlet>
-		<servlet-name>HelloWorldServlet</servlet-name>
-		<servlet-class>HelloWorld</servlet-class>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>Main</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>HelloWorldServlet</servlet-name>
+		<servlet-name>MainServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 </web-app>
